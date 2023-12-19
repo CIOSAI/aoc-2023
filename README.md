@@ -14,6 +14,15 @@ IEx version `Interactive Elixir (1.15.7)`
 
 ## Structure
 
-One module for each day. Named `Aoc.DayN`.
+Inside `aoc.ex` is the module `Aoc`
 
-Every module has two functions: `first_part` and `second_part`. Both take the puzzle input as string(with linebreak). Output not specified.
+Every day is a function `dayN` that takes the input, and return the appropriate output as a tuple `{first_part, second_part}`
+
+Answer for the first part is under variable `first_part` and the second `second_part`
+
+Navigate the project with 4 section tags:
+
+- `SHARED`
+- `FIRST_PART`
+- `SECOND_PART`
+- `END`
